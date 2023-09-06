@@ -41,6 +41,7 @@ import java.util.Map;
 
 
             System.out.println(harfler.replace("A", 20, 30)); // false
+            // A'nin degeri 20 ise 30 yap
             System.out.println(harfler);
 
             System.out.println(harfler.replace("K", 25, 30)); // true
