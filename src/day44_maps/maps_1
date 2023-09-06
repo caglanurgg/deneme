@@ -1,0 +1,44 @@
+MAP'i diger Java yapilarindan ayiran en buyuk ozelligi key-value yapisinda olmasidir
+
+map ile ayni ozelliklere sahip birden fazla objeyi store edebiliriz.
+
+** tuttugunuz data me kadar kompleksse o datalara ulasmakta o kadar zor olur.
+   siz o gorsel kutucuklara degerleri yaziyorsunuz butona click yaptiginizda arka tarafta
+   bir mekanizma,method calisiyor ve size istediginiz bilgiyi veriyor.
+
+** bizde maplerde kompleks bilgiler tutariz.kompleks bilgiler tuttugumuz icinde o kompleks
+   bilgilere ulasmak icin hazir methodlar olustururuz.
+
+   bugune kadar gordugumuz seyleri 3 kademeye ayirirsak
+
+   1-- variable'larin karsisinda da value(deger) var
+
+   2-- birden fazla element barindiran yapilar : Array ,List , LinkedList,Queue,Deque,Set
+
+   3--** MAP tum elementleri key value olarak tutar.
+
+   isimler = { 101 = Ali , 102 = Veli , 103 = Ayse , 104 = Fatma..
+                    Ali -- tercihe gore istedigi kadar bilgi yuklenebilir
+                    101 -- unique (key)
+
+   ayni TC numarasina sahip birden fazla kisi olamaz.*key unique'dir*
+
+ ** her bir element icin bir key ve bir value olmalidir.value icin unique olma mecburiyeti yok
+ Value String bir ifadeye eklenecek bircok bilgiyi icerebilir ama map value olarak tek bir
+ deger store eder.
+
+ Maps ve MultiThread
+ -HashMap ve TreeMap multi thread calismayi desteklemez yani thread safe degildir.
+ Seynchronized  ozelligi yoktur.
+
+ - Multi thread calisma icin HashTable kullanilabilir
+
+ ONEMLİ ** Map'de bir bilgiye ulasmak ve update etmek bir cok islem gerektirdiginden
+           genellikle bu tur islemleri method olarak olusturmayi tercih ederiz.
+        ** Methodlarda istedigimiz bilgiye ulasincaya kadar map'i parcalara ayirip,
+           istedigimiz bilgiye ulastiktan veya update ettikten sonra yeniden map'e
+           eklememiz ve map'i guncellememiz gerekir.
+
+        ** Map guncel projelerde kullanilan data base'e en yakin Java objesidir.Ozellikle
+        ihtiyac oldugunda nested map'ler kullanilaarak bircok uygulamanin java versiyonu
+        yapilabilir

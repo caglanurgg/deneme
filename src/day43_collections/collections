@@ -1,0 +1,53 @@
+collection Interface'i altinda olusturulan, objelerden olusan bir toplulugu bir arada tutan yapilardir.
+
+tum yapiyi ezberlemek yerine bize collectionin ozelligini veren 5 kelimeye odaklanmak gerekir.
+
+1- set (kume) tum elementler unique
+
+2- Linked (bagli) halay gibi insanlar yan yana dizilirler,bunlarin hepsi birbirine baglidir.
+halaya bir  kisiyi eklemek ya da cikarmak kolaydir. siz ciktiginizda halay devam eder
+ ama halayda insan bulmak zordur.
+eklemek ve cikarmak kolaydir ama elementleri bulmak zordur
+
+3- Queue(sira)yemek sirasi gibi en onemli  ozelligi gelen hep sona eklenir giden en bastan gider
+
+4- Tree ( dogal sirali) her degisimden sonra tum elementleri gozden gecirip
+        hepsinin dogal sirali olarak kaldigini kontrol eder
+
+5- Hash:ozel bir kodlama sistemi demektir. üniversite numarasından aklina gelsin 89 026 605
+        hash kodlari ozel bir anlam ifade eder kullanlar icin ve bulmayi cok kolaylastirir,hizlidir.
+
+        Hash Set = hızlıdır ve bunun icindekiler unique'dir
+        Tree Set = dogal siralidir ve bunun icindekiler unique'dir
+        LinkedList =  element bulmak zordur, birbirine baglidir dolayisiyla element eklemek cikarmak kolaydir
+
+Collections / Linked List
+Sistem soyle calisir java istedigim liste icin referansina gelecek,referanstan halay basina
+gidecek. halay basina sunu demesi gerekiyor benden sonraki element su adreste
+
+** Bir Linked List'in ilk elementi Head'dir ve Head'de element yoktur sadece bir sonraki
+   elementin adresi vardir.Sonrasindakilerde hem element bulunur hem de bir sonraki
+   elementin adresi bulunur.Bu ikisi birlesince buna node denir.
+
+** Sonrasindakilerde hem element bulunur hem de bir sonraki elementin adresi bulunur.
+   Bu ikisi birlesince buna node denir.
+   Sonraki elementler data ve kendinden sonraki elementin adresini tutan 2 parcadan olusur
+
+** Son elementin adres bolumu nullPointer icerir.Son node'a tail denir.
+
+////////////////////////////////////
+
+MULTI THREAD
+** Multi Thread uygulamalarda genelde kritik islemler onceden belirlenir.
+
+Multithreading CPU kullanimini en verimli hale getirmek icin birden fazla thread'in
+ayni anda calismasidir.
+
+Thread(is parcacigi) bir program sirasinda calisan her bir processdir.JVM ayni anda
+birden fazla thread'in calismasina izin verir.
+
+Birden fazla thread ayni anda calistiginda javada kullanilan variable'larda kesismeler olusabilir.
+Bu kesismeler oldugunda isin icin SYNCHRONIZING mekanizmalari girer.
+
+// Kulak asinaligi olsun diye
+
