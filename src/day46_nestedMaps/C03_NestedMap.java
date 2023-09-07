@@ -20,7 +20,9 @@ import java.util.List;
             "additionalneeds" : "wi-fi" }
          */
 
-
+            //NESTED MAPS
+            //Map ile bir objeye ait farkli biligleri kategorilerine gore ayirip
+            // depolayabiliriz.
             List<Object> havuz = new ArrayList<>();
             havuz.add(78);
             havuz.add("Java");
@@ -28,7 +30,6 @@ import java.util.List;
             havuz.add('K');
             havuz.add(new int[3]);
             havuz.add(new ArrayList<String>());
-
             System.out.println(havuz); // [78, Java, true, K, [I@e580929, []]
 
             System.out.println(((Integer)havuz.get(0) * 2)); // 156
@@ -37,7 +38,7 @@ import java.util.List;
             System.out.println(((String) havuz.get(1)).substring(2)); // va
 
         /*
-            data turunu Object gibi Jenerik bir data turu secmek
+            data turunu Object gibi Jenerik(genis kapsamli) bir data turu secmek
             istedigimiz elementi bu list'e koymak icin
             baslangicta guzel olur
             AMMA

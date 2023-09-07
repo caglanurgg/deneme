@@ -9,13 +9,15 @@ import java.util.Map;
 
         /*
         101= {isim=Ali,soyisim=Can,sinif=11,sube=H,bolum=MF}
+        key = 101 (integer) & {isim=Ali,soyisim=Can,sinif=11,sube=H,bolum=MF} value'muz map
         102=Veli-Cem-10-K-TM,
         103=Ali-Cem-11-K-TM,
          */
 
             Map<Integer, Map<String,Object>> ogrenciMap = new HashMap<>();
+            //Integer, Map<String,Object> kismi onemli
 
-            // nested map olusturulurken, once inner map'leri hazirlamalisiniz
+            //**nested map olusturulurken, once INNER MAP'LERI hazirlamalisiniz
 
             Map<String,Object>  ogrenci101Bilgileri = new HashMap<>();
             ogrenci101Bilgileri.put("isim","Ali");
@@ -52,12 +54,10 @@ import java.util.Map;
          */
 
             // 103 numarali ogrencinin soyismini yazdirin
-
             System.out.println(ogrenciMap.get(103).get("soyisim")); // Cem
 
 
             // 101 numarali ogrencinin ismini yazdirin
-
             System.out.println(ogrenciMap.get(101).get("isim")); // Ali
 
         }

@@ -1,0 +1,11 @@
+sinifMap = {101 ={ Isim =Ali,soyisim=Can,sinif = 10 , sube  = H ,bolum =MF } }
+
+101= key||{ Isim =Ali,soyisim=Can,sinif = 10 , sube  = H ,bolum =MF } } = value oldugu gibi
+
+Isim = key & Ali = value || soyisim = key & Can = value
+
+101 numarali ogrencinin value'su olan map'te sinif key'nin degerini ver.Dolayisiyla boyle
+yapinca ben 2 kere map'in icine girerim ama tek seferde bigiye ulasirim.
+
+NESTED MAPS
+Map ile bir objeye ait farkli biligleri kategorilerine gore ayirip depolayabiliriz.

@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
         public static void main(String[] args) {
         /*
-        Soru : Verilen bir array’de kullanilan sayilari
+        Soru : Verilen bir array’de kullanilan harfleri
                ve kacar defa kullanildigini yazdirin.
 
         Input : {"a","b","s","a","s","c","d","b","c","a","a","s","z","k"}
@@ -21,12 +21,12 @@ import java.util.TreeMap;
          */
             String[] arr = {"a","b","s","a","s","c","d","b","c","a","a","s","z","k"};
 
-            Map<String,Integer> harfMapi = new TreeMap<>();
+            Map<String,Integer> harfMapi = new TreeMap<>(); // sirali olarak verecek
 
             for (int i = 0; i < arr.length ; i++) {
 
-                harfMapi.computeIfPresent(arr[i],(k,v)->v+1);
-                harfMapi.computeIfAbsent(arr[i],v->1);
+                harfMapi.computeIfPresent(arr[i],(k,v)->v+1); // varsa v'yi 1 arttir
+                harfMapi.computeIfAbsent(arr[i],v->1); // yoksa v'yi 1 olarak ekle
             }
 
             System.out.println(harfMapi);// {a=4, b=2, c=2, d=1, k=1, s=3, z=1}

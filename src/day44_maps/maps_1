@@ -35,6 +35,7 @@ map ile ayni ozelliklere sahip birden fazla objeyi store edebiliriz.
 
  ONEMLİ ** Map'de bir bilgiye ulasmak ve update etmek bir cok islem gerektirdiginden
            genellikle bu tur islemleri method olarak olusturmayi tercih ederiz.
+           Boylece sonraki kullanimlarda methodumuz  hazir olur.
         ** Methodlarda istedigimiz bilgiye ulasincaya kadar map'i parcalara ayirip,
            istedigimiz bilgiye ulastiktan veya update ettikten sonra yeniden map'e
            eklememiz ve map'i guncellememiz gerekir.
@@ -42,3 +43,9 @@ map ile ayni ozelliklere sahip birden fazla objeyi store edebiliriz.
         ** Map guncel projelerde kullanilan data base'e en yakin Java objesidir.Ozellikle
         ihtiyac oldugunda nested map'ler kullanilaarak bircok uygulamanin java versiyonu
         yapilabilir
+
+        - EntrySet ile tum kayitlari entry seklinde ele alabiliriz.
+        - for each ile entrySet'deki her entry'i ele aliriz.
+        - value'nun durumuna gore bilgilere ulasabilecegimiz sekilde boleriz.
+        - Eger update yapilirsa bilgileri map'e yeniden eklenecek sekilde duzenleriz.
+        - Duzenledigimiz value'yu setValue()ile map'de update ederiz.

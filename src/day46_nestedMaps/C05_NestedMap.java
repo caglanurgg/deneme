@@ -21,6 +21,7 @@ import java.util.Map;
 
             Map<String,Object> bookingMap = new HashMap<>();
 
+
             Map<String,String > bookingDatesMap = new HashMap<>();
             bookingDatesMap.put("checkin","2023-07-21");
             bookingDatesMap.put("checkout","2023-08-10");
@@ -52,15 +53,14 @@ import java.util.Map;
             System.out.println(bookingMap.get("firstname")); // Ahmet
 
             // deposit bilgisini yazdirin
-
             System.out.println(bookingMap.get("depositpaid")); // false
 
-            // checkin tarihini yazdirin
-
+            // checkin tarihini yazdirin dikkat et buna
             System.out.println(((Map) bookingMap.get("bookingdates")).get("checkin")); // 2023-07-21
 
-            // checkout tarihni yazdirin
-
+            // checkout tarihni yazdirin dikkat et buna
+            //**((Map) bookingMap.get("bookingdates")) bunun tamami bir map
+            // *bookingMap.get("bookingdates") bunun tamami bir obje
             System.out.println(((Map) bookingMap.get("bookingdates")).get("checkout")); // 2023-08-10
 
 
