@@ -1,4 +1,4 @@
-package day12_StringManipilation;
+package day12_StringManipulation;
 
 public class C01_IndexOf {
     public static void main(String[] args) {

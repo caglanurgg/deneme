@@ -16,8 +16,3 @@ public class C03_amerikanEdebiyati extends C00_dunyaKlasikleri {
 
 
 
-    /*
-    not : Jack London , John Steinbeck Fareler ve insanlari unutma
-          Sylvia Plath
-     */
-

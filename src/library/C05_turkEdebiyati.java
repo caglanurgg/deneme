@@ -12,11 +12,4 @@ package library;
     }
 
 
-    /*
-    Yaşar Kemal
-    Ahmet Hamdi Tanpınar
-    Sabahattin Ali
-
-
-     */
 
