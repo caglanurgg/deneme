@@ -20,7 +20,7 @@ gösteren bir method yazınız. Ayrıca bakkalın hangi günler ortalamanın alt
      */
 
     /*
-    nergis'in çözümü
+
     // 1. Adım : Günleri içeren bir tane ArrayList oluşturun. (gunler)
         ArrayList<String> gunler = new ArrayList<>();
         gunler.add("Pazartesi");

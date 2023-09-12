@@ -8,7 +8,6 @@ public class hesapMakinesi {
   Kullanicidan yapacagi islemi islem sembolu ile secmesini saglayinız.
   Kullanicidan iki sayi girmesini isteyiniz.
   Girilen iki sayi ve secilen isleme gore dogru sonucu ekrana yazdirınız.
-  *
-  * sample question'da çözenlerin çözümlerine bak
+
      */
 }

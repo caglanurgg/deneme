@@ -92,5 +92,5 @@ public class bakkalC2 {
             }
             return ortalamaninAltindaKazancGunleri;
         }
-    }//Class son
+    }//Class sonu
 
