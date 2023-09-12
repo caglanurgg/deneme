@@ -1,0 +1,15 @@
+length(): Bir String'in uzunluğunu döndürür (karakter sayısı).
+charAt(index): Belirtilen indeksteki karakteri döndürür.
+concat(String str): İki String'i birleştirir ve yeni bir String döndürür.
+substring(beginIndex, endIndex): Belirtilen indeksler arasındaki alt diziyi döndürür.
+toLowerCase(): String'in tüm karakterlerini küçük harfe dönüştürür.
+toUpperCase(): String'in tüm karakterlerini büyük harfe dönüştürür.
+trim(): String'in başındaki ve sonundaki boşlukları kaldırır.
+startsWith(String prefix): Belirtilen bir önek ile başlayıp başlamadığını kontrol eder.
+endsWith(String suffix): Belirtilen bir sonek ile bitip bitmediğini kontrol eder.
+contains(CharSequence sequence): Belirtilen bir karakter dizisi veya karakter dizisi dizisiyi içerip içermediğini kontrol eder.
+equals(Object obj): İki String'in eşit olup olmadığını kontrol eder.
+equalsIgnoreCase(String anotherString): İki String'in büyük-küçük harf duyarlılığı olmaksızın eşit olup olmadığını kontrol eder.
+indexOf(String str): Belirtilen bir alt dizenin ilk oluşumunun indeksini döndürür.
+lastIndexOf(String str): Belirtilen bir alt dizenin son oluşumunun indeksini döndürür.
+replace(char oldChar, char newChar): String içinde belirtilen karakterlerin yerini değiştirir.
