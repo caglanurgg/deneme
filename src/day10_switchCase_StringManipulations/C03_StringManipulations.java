@@ -1,7 +1,4 @@
-package day10_switcchCase_StringManipulations;
-
-import java.sql.SQLOutput;
-import java.util.Locale;
+package day10_switchCase_StringManipulations;
 
 public class C03_StringManipulations {
     public static void main(String[] args) {
@@ -16,7 +13,7 @@ public class C03_StringManipulations {
         String uzerinde yapilan manipulasyon islemleri
         String'i kalici olarak degistirmez
 
-        Eger yapilan islem sonucundaki yeni halin kalici olmasibi istersek
+        Eger yapilan islem sonucundaki yeni halin kalici olmasini istersek
         ATAMA yapmaliyiz
         */
 

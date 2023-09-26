@@ -1,4 +1,4 @@
-package day10_switcchCase_StringManipulations;
+package day10_switchCase_StringManipulations;
 
 public class C05_equals {
     public static void main(String[] args) {
@@ -16,8 +16,8 @@ public class C05_equals {
 
         /*
         String'lerde == bekledigimiz sonuclar DONMEYEBİLİR
-        Bunun sebebi String class'ini olustururken yapilam bazi ozelliklerdir
-        bbu konu ilerde detayli bir sekilde anlatilacak
+        Bunun sebebi String class'ini olustururken yapilan bazi ozelliklerdir
+        bu konu ilerde detayli bir sekilde anlatilacak
 
         Verilen iki String'in metinsel olarak ayni olup olmadigini
         kontrol etmek icin == yerine equals () kullanilir
@@ -27,12 +27,19 @@ public class C05_equals {
         bu karsilastirmada metnin ayni olmasi yaninda,
         buyuk kucuk harf durumunu da kontrol eder (case sensitive)
 
-        EGER case sensitive olmadan metinleri karsilastirmak istersenix
+        EGER case sensitive olmadan metinleri karsilastirmak isterseniz
         equalsIgnoreCase()'u kullanilir
 
          */
 
-        System.out.println(str1.equals(str2));  // Mehmet -- MEHMEY false
+        /*
+        String str1="Mehmet";
+        String str2="MEHMET";
+        String str3="mehmet";
+        String str4="MEHmet";
+         */
+
+        System.out.println(str1.equals(str2));  // Mehmet -- MEHMET false
         System.out.println(str3.equals(str4.toLowerCase())); // mehmet == mehmet true
         System.out.println(str2.equals(str3.toUpperCase())); // MEHMET == MEHMET true
 

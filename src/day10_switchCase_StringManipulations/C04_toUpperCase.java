@@ -1,6 +1,5 @@
-package day10_switcchCase_StringManipulations;
+package day10_switchCase_StringManipulations;
 
-import java.sql.SQLOutput;
 import java.util.Locale;
 
 public class C04_toUpperCase {

@@ -8,7 +8,7 @@ public class C05_forLoop {
 
         int input= 8;
 
-        for (int i = input; i < input+10; i++) {
+        for (int i = input; i <input+10; i++) {
             System.out.print(i + " ");
         }
         System.out.println("");
@@ -39,9 +39,6 @@ public class C05_forLoop {
                 System.out.print(i + "-");
 
         }
-
-
-
 
 
 

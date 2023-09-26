@@ -30,6 +30,7 @@ public class C06_ForLoopDikkatEdilecekler {
 
         int arananSayi = 43;
 
+
         for (int i = baslangic; i <= bitis ; i++) {
             System.out.println(i);
             if (i % arananSayi == 0) {

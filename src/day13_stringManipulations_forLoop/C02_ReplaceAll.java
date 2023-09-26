@@ -32,7 +32,7 @@ public class C02_ReplaceAll {
 
         \\s : space                             \\S : space olmayan her sey
         \\s+ : yan yana birden fazla space      \\D : digit olmayan her sey
-        \\d : digits                            \\W : harf,rakam veya _ olmayan her sey
+        \\d : digits                           \\W : harf,rakam veya _ olmayan her sey
         \\w: harf,rakam veya _
          */
 

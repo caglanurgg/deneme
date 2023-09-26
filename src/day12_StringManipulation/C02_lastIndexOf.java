@@ -40,9 +40,9 @@ public class C02_lastIndexOf {
 
         // o harfinin son kullanimindan bir onceki kullaniminin index'ini yazdirin
         System.out.println(str.lastIndexOf("o",31)); // 27
-        /*
-        bundan bir  onceki o'yu bulmak istiyorsam 32'nin 1 eksiginden baslamalıyım
-        */
+
+        //bundan bir  onceki o'yu bulmak istiyorsam 32'nin 1 eksiginden baslamalıyım
+
 
        // k harfinin son kullaniminin index'ini yazdiralim
         System.out.println(str.lastIndexOf('k')); //  33

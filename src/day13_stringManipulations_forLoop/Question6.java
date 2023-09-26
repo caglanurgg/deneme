@@ -12,12 +12,17 @@ public class Question6 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen bir metin giriniz");
         String metin = scanner.nextLine();
+        int uzunluk = metin.length();
 
-
-
-
-
-
+        if (uzunluk % 2 == 0) {
+            int ortaIndex = uzunluk / 2;
+            String yeniString = metin.substring(0,ortaIndex) + " :)" + metin.substring(ortaIndex);
+            System.out.println("Sonuc: " + yeniString);
+        } else {
+            int ortaIndex = uzunluk / 2;
+            String yeniString = metin.substring(0, ortaIndex) + " :( " + metin.substring(ortaIndex + 1);
+            System.out.println("Sonuc: " + yeniString);
+        }
 
     }
 }

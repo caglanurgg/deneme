@@ -4,8 +4,7 @@ public class C04_nullPointer {
     public static void main(String[] args) {
 
         String str1;
-
-      //  System.out.println(str1); sen buna deger atamadin ki neyi yazdirmak istiyorsun ki der java
+        //System.out.println(str1); sen buna deger atamadin ki neyi yazdirmak istiyorsun ki der java
         // str1.concat("candir");
 
         str1="java";

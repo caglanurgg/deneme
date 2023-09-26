@@ -1,4 +1,4 @@
-package day10_switcchCase_StringManipulations;
+package day10_switchCase_StringManipulations;
 
 import java.util.Scanner;
 

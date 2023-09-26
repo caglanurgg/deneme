@@ -17,7 +17,7 @@ public class C05_starsWith_endsWith {
         // str "Java cok guzel" ile mi basliyor?
         System.out.println(str.startsWith("Java cok guzel")); // true
 
-        System.out.println(str.startsWith("")); // true
+        System.out.println(str.startsWith("")); // 5. true
 
       // 5.indexten sonrasi c ile mi baslar?
         System.out.println(str.startsWith("c",5)); // true
@@ -27,16 +27,17 @@ public class C05_starsWith_endsWith {
 
         // "Java cok guzel";
 
-        // str guzel ile mi bitiyor?
-        System.out.println(str.startsWith("guzel")); // true
+        // str guzel ile mi biter?
+        System.out.println(str.endsWith("guzel")); // true
 
-        // str el ile mi bitiyor?
-        System.out.println(str.startsWith("el")); // true
+        // str el ile mi biter?
+        System.out.println(str.endsWith("el")); // true
 
-        // str "" ile mi bitiyor?
-        System.out.println(str.startsWith(""));  // true
+        // str "" ile mi biter ?
 
-        System.out.println(str.startsWith(" ")); // false
+        System.out.println(str.endsWith("")); // true
+
+        System.out.println(str.endsWith(" ")); // false
 
 
 

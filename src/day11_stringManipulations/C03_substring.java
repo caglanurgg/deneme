@@ -42,7 +42,7 @@ public class C03_substring {
         // substring bize String verdigi icin manipulation yapmaya devam edebiliriz
 
         // 6.indexdeki harfi buyuk harf olarak yazdirin
-        System.out.println(str.substring(6,7).toUpperCase());
+        System.out.println(str.substring(6,7).toUpperCase()); // A
 
         System.out.println(str.substring(3,3)); // hiçlik yazdirir
 
@@ -57,7 +57,7 @@ public class C03_substring {
         String str3 = "Candir";
 
         System.out.println(str1+str2+str3);  // Java Candir
-        System.out.println(str1.concat(str2).concat(str3)); // Java Cabdir
+        System.out.println(str1.concat(str2).concat(str3)); // Java Candir
 
 
 
